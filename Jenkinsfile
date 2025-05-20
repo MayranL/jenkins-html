@@ -24,4 +24,5 @@ pipeline {
         }
     }
 }
- 
+
+jenkins ALL=(ALL) NOPASSWD: /bin/cp index.html /var/www/html/index.html, /bin/systemctl restart apache2
